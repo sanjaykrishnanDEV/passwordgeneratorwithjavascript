@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+
+</head>
+<body class="overflow-hidden bg-blue-950 flex flex-col justify-center items-center w-full">
+    <div class="bg w-[200px] h-[80px] bg-pink-300 blur-3xl absolute top-[400px]">
+    </div>
+    <div class="head bg-slate-100 p-3 m-10 rounded-lg font-mono">
+        Random Password Generator
+    </div>
+    <div class="inputs">
+        <input type="text" 
+        class="p-4 rounded-lg " placeholder="Your Password Served!" id="ip">
+    </div>
+    <button type="submit" class="bg-slate-300 m-10 p-3 rounded-lg hover:bg-slate-50" id="generator">
+        Basic password
+    </button>
+    <button type="submit" class="bg-slate-300 m-1 p-3 rounded-lg hover:bg-slate-50" id="generatorstrong">
+        Strong password
+    </button>
+    <script src="app.js"></script>
+</body>
+</html>
